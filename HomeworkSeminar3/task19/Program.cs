@@ -3,9 +3,9 @@
 Console.Write("Введите пятизначное число: ");
 string? number = Console.ReadLine();
 
-void ReadNumber(string number)
+void ReadNumber(string n)
 {
-  if (number[0]==number[4] && number[1]==number[3])
+  if (n[0]==n[4] && n[1]==n[3])
   {
     Console.WriteLine($"Ваше число палиндром.");
   }
