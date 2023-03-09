@@ -6,9 +6,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine("max=" + a + "min=" + b);
+    Console.WriteLine("а = " + a + " " + "b = " + b + " " + "max = " + a);
 }
 else
 {
-    Console.WriteLine("max=" + b + "min=" + a);
+    Console.WriteLine("а = " + a + " " + "b = " + b + " " + "max = " + b);
 }
